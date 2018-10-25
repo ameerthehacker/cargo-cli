@@ -1,5 +1,15 @@
-const chalk = require('chalk');
+const util = require('../util');
+const cliSpinners = require('cli-spinners');
+const ora = require('ora');
 
 module.exports = () => {
-  console.log(chalk.green('Updating cargoes...'));
+  const spinner = ora({
+    text: 'Updating cargoes...',
+    spinner: cliSpinners.dots
+  }).start();
+
+  util.updateCargoes().then(() => {
+    spinner.stop();
+    util.printSuccess('Cargoes updated!');
+  });
 }
