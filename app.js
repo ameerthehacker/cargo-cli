@@ -15,12 +15,12 @@ cli
   });
 
 cli
-  .command('create <cargo>')
+  .command('create <cargo> [dest]')
   .description('Create a project from <cargo>')
-  .action((cargo) => {
-    const install = require('./cli/install');
+  .action((cargo, dest) => {
+    const create = require('./cli/create');
 
-    install(cargo);
+    create(cargo, dest);
   });
 
 cli.parse(process.argv);
