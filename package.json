@@ -1,0 +1,24 @@
+{
+  "name": "cargo-cli",
+  "version": "0.0.1",
+  "description": "Download and build with containerized project recipies",
+  "main": "app.js",
+  "scripts": {
+    "start": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameerthehacker/cargo-cli.git"
+  },
+  "keywords": [
+    "docker",
+    "cli",
+    "containers"
+  ],
+  "author": "ameerthehacker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ameerthehacker/cargo-cli/issues"
+  },
+  "homepage": "https://github.com/ameerthehacker/cargo-cli#readme"
+}
