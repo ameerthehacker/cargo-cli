@@ -13,7 +13,7 @@
     "containers"
   ],
   "bin": {
-    "cargo-ship": "app.js"
+    "ship-cargo": "./bin/app.js"
   },
   "author": "ameerthehacker",
   "license": "MIT",
