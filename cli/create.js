@@ -17,7 +17,7 @@ module.exports = (cargo, dest) => {
       dest = dest || `${cargo}-cargo`;
 
       spinner.start();
-      util.copyRecursive(cargoesPath, dest).then(() => {
+      util.copyRecursive(cargoPath, dest).then(() => {
         spinner.stop();
 
         util.printSuccess(`Cargo shipped to ${dest}`);
