@@ -32,5 +32,8 @@ module.exports = {
   },
   printSuccess(info) {
     console.log(chalk.green(info));
+  },
+  printErr(error) {
+    console.log(chalk.red(error));
   }
 }

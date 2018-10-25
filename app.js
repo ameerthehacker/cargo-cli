@@ -13,5 +13,14 @@ cli
 
     update();
   });
- 
+
+cli
+  .command('create <cargo>')
+  .description('Create a project from <cargo>')
+  .action((cargo) => {
+    const install = require('./cli/install');
+
+    install(cargo);
+  });
+
 cli.parse(process.argv);

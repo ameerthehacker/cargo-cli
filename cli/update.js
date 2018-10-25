@@ -11,5 +11,8 @@ module.exports = () => {
   util.updateCargoes().then(() => {
     spinner.stop();
     util.printSuccess('Cargoes updated!');
+  })
+  .catch(err => {
+    util.printErr(err);
   });
 }
