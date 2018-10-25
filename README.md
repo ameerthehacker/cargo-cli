@@ -1,5 +1,8 @@
 # Cargo
 
+![screenshot](https://media.giphy.com/media/1sx4pBY208fPP9rgrG/giphy.gif)
+
+
 ## What is Cargo?
 
 Cargo is an easy way to create sandbox for quickly experimenting with popular technologies like node, react, angular, flask etc.
