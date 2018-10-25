@@ -12,6 +12,9 @@
     "cli",
     "containers"
   ],
+  "bin": {
+    "cargo": "app.js"
+  },
   "author": "ameerthehacker",
   "license": "MIT",
   "bugs": {
